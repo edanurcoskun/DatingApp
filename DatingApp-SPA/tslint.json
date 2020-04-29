@@ -2,6 +2,7 @@
   "extends": "tslint:recommended",
   "rules": {
     "no-string-literal": false,
+    "label-position": false,
     "object-literal-shorthand": false,
     "align": {
       "options": [
@@ -144,6 +145,7 @@
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
   },
+  
   "rulesDirectory": [
     "codelyzer"
   ]
